@@ -1,0 +1,71 @@
+name: Quick Commerce News Scraper
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  
+  workflow_dispatch:
+    inputs:
+      timeframe:
+        description: 'Select timeframe for news scraping'
+        required: true
+        default: '7d'
+        type: choice
+        options:
+          - '6h'
+          - '12h' 
+          - '24h'
+          - '2d'
+          - '3d'
+          - '7d'
+          - '14d'
+          - '30d'
+          - '60d'
+          - '90d'
+
+jobs:
+  scrape-news:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    
+    - name: Run news scraper
+      env:
+        NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
+        SCRAPE_TIMEFRAME: ${{ github.event.inputs.timeframe || '24h' }}
+      run: |
+        python scraper.py --timeframe ${{ github.event.inputs.timeframe || '24h' }}
+    
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: quick-commerce-news-${{ github.run_number }}
+        path: |
+          quick_commerce_news_*.txt
+          quick_commerce_news_*.json
+        retention-days: 30
+    
+    - name: Commit and push results
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add quick_commerce_news_*.txt quick_commerce_news_*.json 2>/dev/null || true
+        
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Add quick commerce news update - $(date)"
+          git push
+        fi

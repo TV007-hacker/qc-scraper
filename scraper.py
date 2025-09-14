@@ -215,59 +215,102 @@ class QuickCommerceNewsScraper:
         return text
 
     def extract_article_content(self, url: str) -> Dict[str, str]:
-        """Extract full article content from URL"""
+        """Extract full article content from URL with enhanced extraction"""
         try:
-            response = self.session.get(url, timeout=10)
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+                'Accept-Language': 'en-US,en;q=0.5',
+                'Accept-Encoding': 'gzip, deflate',
+                'Connection': 'keep-alive'
+            }
+            
+            response = self.session.get(url, headers=headers, timeout=15, allow_redirects=True)
             response.raise_for_status()
             
             soup = BeautifulSoup(response.content, 'html.parser')
             
             # Remove unwanted elements
-            for element in soup(['script', 'style', 'nav', 'header', 'footer', 'aside', 'advertisement']):
+            for element in soup(['script', 'style', 'nav', 'header', 'footer', 'aside', 'advertisement', 'iframe', 'noscript']):
                 element.decompose()
             
-            # Try to find article title
+            # Enhanced title extraction
             title = ""
-            for selector in ['h1', 'title', '.headline', '.article-title', '.entry-title']:
+            title_selectors = [
+                'h1', '[data-testid="headline"]', '.headline', '.article-title', 
+                '.entry-title', '.post-title', '.story-headline', 
+                'title', '.main-headline', '[class*="headline"]'
+            ]
+            
+            for selector in title_selectors:
                 title_elem = soup.select_one(selector)
-                if title_elem:
+                if title_elem and len(title_elem.get_text().strip()) > 10:
                     title = self.clean_text(title_elem.get_text())
                     break
             
-            # Try to find article content
+            # Enhanced content extraction with more selectors
             content = ""
             content_selectors = [
                 'article', '.article-content', '.entry-content', '.post-content',
                 '.article-body', '.story-body', '.content', '.main-content',
-                '[data-module="ArticleBody"]', '.article-wrap'
+                '[data-module="ArticleBody"]', '.article-wrap', '.story-content',
+                '[data-testid="ArticleBody"]', '.ArticleBody', '[class*="article-body"]',
+                '.story-text', '[class*="story-body"]', '.post-body', '[id*="article"]',
+                '.text-content', '[data-component="ArticleBody"]'
             ]
             
             for selector in content_selectors:
                 content_elem = soup.select_one(selector)
                 if content_elem:
-                    # Get all paragraph text
-                    paragraphs = content_elem.find_all(['p', 'div'])
-                    content_text = []
-                    for p in paragraphs:
-                        text = self.clean_text(p.get_text())
-                        if len(text) > 50:  # Only include substantial paragraphs
-                            content_text.append(text)
-                    content = '\n\n'.join(content_text)
-                    break
+                    # Get text from paragraphs and divs
+                    text_elements = content_elem.find_all(['p', 'div', 'span'], string=True)
+                    content_parts = []
+                    
+                    for elem in text_elements:
+                        text = self.clean_text(elem.get_text())
+                        # Only include substantial text (not just whitespace or short fragments)
+                        if len(text.strip()) > 30 and not text.strip().lower().startswith(('advertisement', 'subscribe', 'follow us')):
+                            content_parts.append(text.strip())
+                    
+                    if content_parts:
+                        content = '\n\n'.join(content_parts)
+                        break
             
-            # Fallback: get all paragraph text from the page
-            if not content:
+            # Fallback: extract from all paragraphs on the page
+            if not content or len(content) < 100:
                 paragraphs = soup.find_all('p')
-                content_text = []
+                content_parts = []
+                
                 for p in paragraphs:
                     text = self.clean_text(p.get_text())
-                    if len(text) > 50:
-                        content_text.append(text)
-                content = '\n\n'.join(content_text[:10])  # Limit to first 10 paragraphs
+                    if len(text.strip()) > 50:
+                        # Filter out common unwanted text
+                        unwanted_phrases = [
+                            'subscribe', 'newsletter', 'advertisement', 'cookie', 
+                            'privacy policy', 'terms of service', 'follow us',
+                            'download app', 'register now', 'sign up'
+                        ]
+                        
+                        if not any(phrase in text.lower() for phrase in unwanted_phrases):
+                            content_parts.append(text.strip())
+                
+                # Take the first 15 substantial paragraphs
+                content = '\n\n'.join(content_parts[:15])
+            
+            # If still no content, try to get the page description or summary
+            if not content or len(content) < 50:
+                meta_desc = soup.find('meta', attrs={'name': 'description'})
+                if meta_desc:
+                    content = f"Article summary: {meta_desc.get('content', '')}"
+                else:
+                    # Get first few sentences from the page
+                    all_text = soup.get_text()
+                    sentences = all_text.split('.')[:10]
+                    content = '. '.join([s.strip() for s in sentences if len(s.strip()) > 20])
             
             return {
                 'title': title or 'No title found',
-                'content': content or 'No content extracted',
+                'content': content or 'Content extraction failed - site may block automated access',
                 'url': url
             }
             
@@ -275,7 +318,7 @@ class QuickCommerceNewsScraper:
             logger.error(f"Error extracting content from {url}: {str(e)}")
             return {
                 'title': 'Error extracting title',
-                'content': f'Error extracting content: {str(e)}',
+                'content': f'Content extraction failed: {str(e)}. This may be due to site restrictions or network issues.',
                 'url': url
             }
 

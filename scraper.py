@@ -687,20 +687,15 @@ def main():
         articles = scraper.scrape_all_news()
         
         if articles:
-            # Save to text file (main requirement)
+            # Save to text file only (as requested)
             text_filename = scraper.save_to_text_file(articles)
-            
-            # Also save to JSON for structured data
-            json_filename = scraper.save_to_json(articles)
             
             if text_filename:
                 print(f"\n✅ Successfully scraped {len(articles)} articles!")
                 print(f"📅 Timeframe: {scraper.timeframe_options[timeframe]['description']}")
                 print(f"📄 Text file: {text_filename}")
-                if json_filename:
-                    print(f"📊 JSON file: {json_filename}")
             else:
-                print("❌ Error saving files")
+                print("❌ Error saving file")
                 
         else:
             logger.warning("No articles found for the specified timeframe")

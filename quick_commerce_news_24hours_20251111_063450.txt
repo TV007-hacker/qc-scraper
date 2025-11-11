@@ -1,0 +1,52 @@
+QUICK COMMERCE INDUSTRY NEWS REPORT
+==================================================
+Generated on: 2025-11-11 06:34:50
+Timeframe: Last 24 hours
+Date range: 2025-11-10 06:34 to 2025-11-11 06:34
+Total articles: 2
+
+ARTICLES BY SOURCE:
+• YourStory: 2 articles
+
+
+================================================================================
+ARTICLE 1
+================================================================================
+
+TITLE: Zepto Cafe halts operations at 200 stores amid muted demand, workforce redeployed to dark stores
+
+SOURCE: YourStory
+
+URL: https://yourstory.com/2025/11/zepto-cafe-halts-operations-at-200-stores-amid-muted-demand
+
+PUBLISHED: Mon, 10 Nov 2025 11:13:11 GMT
+
+DESCRIPTION:
+Zepto Cafe has paused operations at about 200 stores due to weak demand in select areas, reallocating staff and resources to its core quick commerce vertical to improve efficiency.
+
+FULL CONTENT:
+----------------------------------------
+Error extracting content: 403 Client Error: Forbidden for url: https://yourstory.com/2025/11/zepto-cafe-halts-operations-at-200-stores-amid-muted-demand
+----------------------------------------
+
+
+================================================================================
+ARTICLE 2
+================================================================================
+
+TITLE: Zepto Cafe struggles with muted demand; A 21st-century perfumer
+
+SOURCE: YourStory
+
+URL: https://yourstory.com/2025/11/zepto-cafe-struggles-with-muted-demand-ather-energy-results-lenskart-ipo
+
+PUBLISHED: Tue, 11 Nov 2025 02:00:00 GMT
+
+DESCRIPTION:
+Meanwhile, its rival Ather Energy reported that its net loss narrowed to Rs 156.7 crore in Q2. Its revenue from operations rose 54% to Rs 898 crore, driven by increased sales amid festive demand.
+
+FULL CONTENT:
+----------------------------------------
+Error extracting content: 403 Client Error: Forbidden for url: https://yourstory.com/2025/11/zepto-cafe-struggles-with-muted-demand-ather-energy-results-lenskart-ipo
+----------------------------------------
+

@@ -1,0 +1,53 @@
+QUICK COMMERCE INDUSTRY NEWS REPORT
+==================================================
+Generated on: 2025-11-13 06:34:47
+Timeframe: Last 24 hours
+Date range: 2025-11-12 06:34 to 2025-11-13 06:34
+Total articles: 2
+
+ARTICLES BY SOURCE:
+• LiveMint: 1 articles
+• YourStory: 1 articles
+
+
+================================================================================
+ARTICLE 1
+================================================================================
+
+TITLE: Quick commerce no longer a mad dash as firms use algos to group orders and cut costs
+
+SOURCE: LiveMint
+
+URL: https://www.livemint.com/companies/quick-commerce-firms-algorithms-group-orders-cut-costs-swiggy-zomato-bigbasket-blinkit-delivery-workers-11762933728601.html
+
+PUBLISHED: Wed, 12 Nov 2025 16:17:30 +0530
+
+DESCRIPTION:
+Faced with rising competition and pressure to generate profits, the likes of Swiggy Instamart, Blinkit, Zepto, Flipkart Minutes and BigBasket are using algorithms to save on costs without increasing delivery times too much.
+
+FULL CONTENT:
+----------------------------------------
+Redirect URL - content extraction skipped
+----------------------------------------
+
+
+================================================================================
+ARTICLE 2
+================================================================================
+
+TITLE: Honasa widens premium play with oral beauty bet, says quick commerce drives 10% of total revenue
+
+SOURCE: YourStory
+
+URL: https://yourstory.com/2025/11/honasa-widens-premium-play-with-oral-beauty-bet-says-quick-commerce
+
+PUBLISHED: Wed, 12 Nov 2025 14:40:21 GMT
+
+DESCRIPTION:
+With quick commerce now contributing 10% of sales, Honasa Consumer is strengthening distribution while entering the premium oral beauty. Its flagship brand Mamaearth has also returned to profitability after last year’s inventory-led correction.
+
+FULL CONTENT:
+----------------------------------------
+Error extracting content: 403 Client Error: Forbidden for url: https://yourstory.com/2025/11/honasa-widens-premium-play-with-oral-beauty-bet-says-quick-commerce
+----------------------------------------
+

@@ -1,0 +1,53 @@
+QUICK COMMERCE INDUSTRY NEWS REPORT
+==================================================
+Generated on: 2025-12-18 06:37:40
+Timeframe: Last 24 hours
+Date range: 2025-12-17 06:37 to 2025-12-18 06:37
+Total articles: 2
+
+ARTICLES BY SOURCE:
+• LiveMint: 1 articles
+• YourStory: 1 articles
+
+
+================================================================================
+ARTICLE 1
+================================================================================
+
+TITLE: Zepto co-founders Kaivalya Vohra,22, and Aadit Palicha, 23, biggest self-made entrepreneurs; check who else tops list
+
+SOURCE: LiveMint
+
+URL: https://www.livemint.com/companies/people/zepto-co-founders-kaivalya-vohra-22-and-aadit-palicha-23-biggest-self-made-entrepreneurs-check-who-else-tops-list-11765964447678.html
+
+PUBLISHED: Wed, 17 Dec 2025 15:29:48 +0530
+
+DESCRIPTION:
+In 2025, Zepto co-founders Kaivalya Vohra and Aadit Palicha, aged 22 and 23, lead the IDFC FIRST Private and Hurun India's Top 200 Self-made Entrepreneurs list, showcasing a rise of young founders in India's startup scene. Lenskart emerges as the most valuable unlisted company at ₹67,000 crore.
+
+FULL CONTENT:
+----------------------------------------
+Redirect URL - content extraction skipped
+----------------------------------------
+
+
+================================================================================
+ARTICLE 2
+================================================================================
+
+TITLE: Deepinder Goyal tops list of India’s self-made entrepreneurs of 2025; Zepto founders youngest on the list
+
+SOURCE: YourStory
+
+URL: https://yourstory.com/2025/12/deepinder-goyal-tops-list-of-indias-self-made-entrepreneurs-of-2025
+
+PUBLISHED: Wed, 17 Dec 2025 11:14:34 GMT
+
+DESCRIPTION:
+The Hurun-IDFC FIRST list of ‘India’s Top 200 self-made entrepreneurs of the millennia 2025’ also features notable names like Sriharsha Majety, Nandan Reddy, VSS, and Deep Karla from the Indian startup ecosystem.
+
+FULL CONTENT:
+----------------------------------------
+Error extracting content: 403 Client Error: Forbidden for url: https://yourstory.com/2025/12/deepinder-goyal-tops-list-of-indias-self-made-entrepreneurs-of-2025
+----------------------------------------
+

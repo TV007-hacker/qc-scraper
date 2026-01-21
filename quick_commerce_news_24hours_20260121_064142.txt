@@ -1,0 +1,31 @@
+QUICK COMMERCE INDUSTRY NEWS REPORT
+==================================================
+Generated on: 2026-01-21 06:41:42
+Timeframe: Last 24 hours
+Date range: 2026-01-20 06:41 to 2026-01-21 06:41
+Total articles: 1
+
+ARTICLES BY SOURCE:
+• YourStory: 1 articles
+
+
+================================================================================
+ARTICLE 1
+================================================================================
+
+TITLE: Dunzo co-founder’s vibe-coding startup Emergent raises $70M from Khosla Ventures, SoftBank Vision Fund 2
+
+SOURCE: YourStory
+
+URL: https://yourstory.com/2026/01/dunzo-co-founder-vibe-coding-startup-emergent-series-b-khosla-ventures-softbank-vision
+
+PUBLISHED: Tue, 20 Jan 2026 11:19:00 GMT
+
+DESCRIPTION:
+Founded by Dunzo co-founder Mukund Jha and his twin brother Madhav Jha, Emergent provides an AI-native platform that lets anyone create production-ready web and mobile applications through natural language—without writing code.
+
+FULL CONTENT:
+----------------------------------------
+Error extracting content: 403 Client Error: Forbidden for url: https://yourstory.com/2026/01/dunzo-co-founder-vibe-coding-startup-emergent-series-b-khosla-ventures-softbank-vision
+----------------------------------------
+

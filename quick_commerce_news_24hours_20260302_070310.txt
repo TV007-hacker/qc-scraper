@@ -1,0 +1,31 @@
+QUICK COMMERCE INDUSTRY NEWS REPORT
+==================================================
+Generated on: 2026-03-02 07:03:10
+Timeframe: Last 24 hours
+Date range: 2026-03-01 07:02 to 2026-03-02 07:02
+Total articles: 1
+
+ARTICLES BY SOURCE:
+• YourStory: 1 articles
+
+
+================================================================================
+ARTICLE 1
+================================================================================
+
+TITLE: Inamo raises $8M in Series A funding to expand quick commerce infrastructure
+
+SOURCE: YourStory
+
+URL: https://yourstory.com/2026/03/inamo-raises-series-a-funding-to-expand-quick-commerce-infrastructure
+
+PUBLISHED: Mon, 02 Mar 2026 06:04:01 GMT
+
+DESCRIPTION:
+The quick-commerce enablement platform will use the funding to expand its dark store network, strengthen its tech stack, accelerate brand onboarding, and enter new product categories.
+
+FULL CONTENT:
+----------------------------------------
+Error extracting content: 403 Client Error: Forbidden for url: https://yourstory.com/2026/03/inamo-raises-series-a-funding-to-expand-quick-commerce-infrastructure
+----------------------------------------
+

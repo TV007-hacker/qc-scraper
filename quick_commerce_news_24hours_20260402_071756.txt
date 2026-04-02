@@ -1,0 +1,31 @@
+QUICK COMMERCE INDUSTRY NEWS REPORT
+==================================================
+Generated on: 2026-04-02 07:17:56
+Timeframe: Last 24 hours
+Date range: 2026-04-01 07:17 to 2026-04-02 07:17
+Total articles: 1
+
+ARTICLES BY SOURCE:
+• YourStory: 1 articles
+
+
+================================================================================
+ARTICLE 1
+================================================================================
+
+TITLE: Blinkit announces quick commerce service at Mumbai airport; netizens wonder if it's a prank
+
+SOURCE: YourStory
+
+URL: https://yourstory.com/2026/04/blinkit-pilots-in-terminal-quick-commerce-service-at-mumbai-airport
+
+PUBLISHED: Wed, 01 Apr 2026 11:09:10 GMT
+
+DESCRIPTION:
+The company says the service is live at Terminal 2 of the airport; passengers can order from a catalogue of over 2,500 products, including phone chargers, snacks, personal care items, books, and gifts, through the Blinkit app.
+
+FULL CONTENT:
+----------------------------------------
+Error extracting content: 403 Client Error: Forbidden for url: https://yourstory.com/2026/04/blinkit-pilots-in-terminal-quick-commerce-service-at-mumbai-airport
+----------------------------------------
+

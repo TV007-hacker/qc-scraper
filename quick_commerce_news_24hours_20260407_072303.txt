@@ -1,0 +1,31 @@
+QUICK COMMERCE INDUSTRY NEWS REPORT
+==================================================
+Generated on: 2026-04-07 07:23:03
+Timeframe: Last 24 hours
+Date range: 2026-04-06 07:22 to 2026-04-07 07:22
+Total articles: 1
+
+ARTICLES BY SOURCE:
+• YourStory: 1 articles
+
+
+================================================================================
+ARTICLE 1
+================================================================================
+
+TITLE: Amazon looks to expand its q-commerce service to 10-15 cities
+
+SOURCE: YourStory
+
+URL: https://yourstory.com/2026/04/amazon-looks-to-expand-into-10
+
+PUBLISHED: Mon, 06 Apr 2026 12:51:46 GMT
+
+DESCRIPTION:
+For years, Amazon Fresh occupied that middle layer, offering same-day or next-day grocery deliveries while encouraging larger baskets to offset logistics costs. But that model is now being squeezed from both ends.
+
+FULL CONTENT:
+----------------------------------------
+Error extracting content: 403 Client Error: Forbidden for url: https://yourstory.com/2026/04/amazon-looks-to-expand-into-10
+----------------------------------------
+

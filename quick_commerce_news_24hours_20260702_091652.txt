@@ -1,0 +1,53 @@
+QUICK COMMERCE INDUSTRY NEWS REPORT
+==================================================
+Generated on: 2026-07-02 09:16:52
+Timeframe: Last 24 hours
+Date range: 2026-07-01 09:16 to 2026-07-02 09:16
+Total articles: 2
+
+ARTICLES BY SOURCE:
+• LiveMint: 1 articles
+• YourStory: 1 articles
+
+
+================================================================================
+ARTICLE 1
+================================================================================
+
+TITLE: Quick commerce, alcohol moderation fuel India's zero-proof drinks market as liquor giants, startups widen bets
+
+SOURCE: LiveMint
+
+URL: https://www.livemint.com/companies/news/zero-proof-beverages-india-growth-quick-commerce-11782970729904.html
+
+PUBLISHED: Thu, 02 Jul 2026 13:46:32 +0530
+
+DESCRIPTION:
+Growing consumer interest in alcohol moderation is driving India's zero-proof beverage market. Brands such as Sober and Catwalk are expanding product portfolios and distribution, though profitability remains challenged by rising costs and competition.
+
+FULL CONTENT:
+----------------------------------------
+Redirect URL - content extraction skipped
+----------------------------------------
+
+
+================================================================================
+ARTICLE 2
+================================================================================
+
+TITLE: Swiggy-owned Instamart appoints Gautam Swaroop as Chief Business Officer
+
+SOURCE: YourStory
+
+URL: https://yourstory.com/2026/07/swiggy-instamart-appoints-gautam-swaroop-chief-business-officer
+
+PUBLISHED: Wed, 01 Jul 2026 11:26:54 GMT
+
+DESCRIPTION:
+The development comes days after Hari Kumar resigned as Instamart's CBO. The quick commerce platform's Chief Operating Officer Ankit Kumar also stepped down recently.
+
+FULL CONTENT:
+----------------------------------------
+Error extracting content: 403 Client Error: Forbidden for url: https://yourstory.com/2026/07/swiggy-instamart-appoints-gautam-swaroop-chief-business-officer
+----------------------------------------
+

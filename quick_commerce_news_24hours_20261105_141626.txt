@@ -1,0 +1,53 @@
+QUICK COMMERCE INDUSTRY NEWS REPORT
+==================================================
+Generated on: 2026-11-05 14:16:26
+Timeframe: Last 24 hours
+Date range: 2026-11-04 14:16 to 2026-11-05 14:16
+Total articles: 2
+
+ARTICLES BY SOURCE:
+• LiveMint: 1 articles
+• YourStory: 1 articles
+
+
+================================================================================
+ARTICLE 1
+================================================================================
+
+TITLE: Nykaa pushes quick commerce expansion as Q2 profit more than doubles
+
+SOURCE: LiveMint
+
+URL: https://www.livemint.com/companies/news/nykaa-pushes-quick-commerce-expansion-as-q2-profit-more-than-doubles-11793798987946.html
+
+PUBLISHED: Wed, 04 Nov 2026 20:13:29 +0530
+
+DESCRIPTION:
+Nykaa Now is targeting a presence in more than 25 cities by FY27, as the beauty retailer looks to drive repeat purchases and incremental demand through faster deliveries. The company also reported a 207% year-on-year rise in Q2 net profit to ₹101 crore.
+
+FULL CONTENT:
+----------------------------------------
+Redirect URL - content extraction skipped
+----------------------------------------
+
+
+================================================================================
+ARTICLE 2
+================================================================================
+
+TITLE: Blinkit Ambulance to charge Rs 2,500 for non-emergency cases
+
+SOURCE: YourStory
+
+URL: https://yourstory.com/2026/11/blinkit-ambulance-to-charge-rs-2500-for-non-emergency-cases
+
+PUBLISHED: Thu, 05 Nov 2026 09:33:30 GMT
+
+DESCRIPTION:
+Zomato founder Deepinder Goyal noted that a growing share of bookings for its free ambulance service were for routine checkups, hospital visits and hospital-to-home transfers.
+
+FULL CONTENT:
+----------------------------------------
+Error extracting content: 403 Client Error: Forbidden for url: https://yourstory.com/2026/11/blinkit-ambulance-to-charge-rs-2500-for-non-emergency-cases
+----------------------------------------
+
